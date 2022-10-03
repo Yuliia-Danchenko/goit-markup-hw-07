@@ -1,0 +1,31 @@
+/**
+  |============================
+  | block 6
+  |============================
+*/
+.header__logo {
+    margin-right: 93px;
+    color: var(--main-color-blue);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.header__logo-head {
+    color: var(--main-color-black);
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+    display: block;
+    color: var(--main-color-blue);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer__logo-head {
+    color: var(--main-color-white);
+}
