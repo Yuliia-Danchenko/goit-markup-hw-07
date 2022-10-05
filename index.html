@@ -21,22 +21,23 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!--Навігація-->
+    <!--Header-->
     <header class="header">
       <div class="header__container container">
         <nav class="header__nav">
-          <a lang="en" href="./index.html" class="header__logo links">
-            Web<span class="header__logo-head">Studio</span>
+          <a lang="en" href="./index.html" class="logo logo__header links">
+            Web<span class="logo__header--black">Studio</span>
           </a>
-          <ul class="header__site-nav">
-            <li class="header__site-nav-item list">
-              <a href="./index.html" class="header__site-nav-link links current">Студія</a>
+          <!-- Header nav -->
+          <ul class="site-nav">
+            <li class="site-nav__item list">
+              <a href="./index.html" class="site-nav__link current links">Студія</a>
             </li>
-            <li class="header__site-nav-item list">
-              <a href="./portfolio.html" class="header__site-nav-link links">Портфоліо</a>
+            <li class="site-nav__item list">
+              <a href="./portfolio.html" class="site-nav__link links">Портфоліо</a>
             </li>
-            <li class="header__site-nav-item list">
-              <a href="" class="header__site-nav-link links">Контакти</a>
+            <li class="site-nav__item list">
+              <a href="" class="site-nav__link links">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -199,31 +200,31 @@
       </div>
     </section>
     <!--Діяльність-->
-    <section class="work">
+    <section class="section section--no-pt">
       <div class="container">
-        <h2 class="work__activity-title">Чим ми займаємося</h2>
-        <ul class="work__activity-list list">
-          <li class="work__activity-item">
-            <div class="work__activity-item-img">
+        <h2 class="section__title">Чим ми займаємося</h2>
+        <ul class="work list">
+          <li class="work__item">
+            <div class="work__box">
               <img src="./images/img-1.jpg" alt="Написання сайтів" width="370" height="294" />
-              <p class="work__img-title">Десктопні додатки</p>
+              <p class="work__title">Десктопні додатки</p>
             </div>
           </li>
-          <li class="work__activity-item">
-            <div class="work__activity-item-img">
+          <li class="work__item">
+            <div class="work__box">
               <img
                 src="./images/img-2.jpg"
                 alt="Написання мобільних додатків"
                 width="370"
                 height="294"
               />
-              <p class="work__img-title">Мобільні додатки</p>
+              <p class="work__title">Мобільні додатки</p>
             </div>
           </li>
-          <li class="work__activity-item">
-            <div class="work__activity-item-img">
+          <li class="work__item">
+            <div class="work__box">
               <img src="./images/img-3.jpg" alt="Дизайн" width="370" height="294" />
-              <p class="work__img-title">Дизайнерські рішення</p>
+              <p class="work__title">Дизайнерські рішення</p>
             </div>
           </li>
         </ul>
@@ -514,48 +515,48 @@
       </div>
     </section>
     <!-- Постійні клієнти -->
-    <section class="customers">
+    <section class="section">
       <div class="container">
-        <h2 class="customers__title">Постійні клієнти</h2>
-        <ul class="customers__client-list list">
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+        <h2 class="section__title">Постійні клієнти</h2>
+        <ul class="customers list">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#group"></use>
               </svg>
             </a>
           </li>
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#group-1"></use>
               </svg>
             </a>
           </li>
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#group-2"></use>
               </svg>
             </a>
           </li>
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#group-3"></use>
               </svg>
             </a>
           </li>
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#group-4"></use>
               </svg>
             </a>
           </li>
-          <li class="customers__client-item">
-            <a class="customers__client-link" href="">
-              <svg class="customers__client-icon" width="106" height="60">
+          <li class="customers__item">
+            <a class="customers__link" href="">
+              <svg class="customers__icon" width="106" height="60">
                 <use href="./images/icons.svg#Logo"></use>
               </svg>
             </a>
@@ -567,8 +568,8 @@
     <footer class="footer">
       <div class="container container-footer">
         <div class="adrress">
-          <a lang="en" href="./index.html" class="footer__logo links">
-            Web<span class="footer__logo-head">Studio</span>
+          <a lang="en" href="./index.html" class="logo logo__footer links">
+            Web<span class="logo__footer--white">Studio</span>
           </a>
           <address class="footer-address">
             <ul class="footer-address-list list">
